@@ -4,7 +4,7 @@ require 'open-uri'
 require 'pry'
  
 def page  
-	return page = Nokogiri::HTML(open("https://coinmarketcap.com/all/views/all/")).text  
+	return page = Nokogiri::HTML(open("https://coinmarketcap.com/all/views/all/"))
 end
 
 
